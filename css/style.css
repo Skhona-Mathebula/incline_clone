@@ -194,9 +194,9 @@ button, select {
     cursor: pointer;
 }
 
-.navbar-expand-xl .navbar-toggler {
-    display: none;
-}
+/*.navbar-expand-xl .navbar-toggler {*/
+/*    display: none;*/
+/*}*/
 
 .navbar-dark .navbar-toggler {
     color: #fff;
