@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <!--Responsive Tag-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
 
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -18,7 +18,7 @@
 </head>
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+    <nav class="navbar navbar-expand-xl navbar-light bg-light fixed-top">
         <div class="container">
             <!--Brand-->
             <a class="navbar-brand" href="index.html">
@@ -287,6 +287,41 @@
             </div>
         </div>
     </nav>
+    <!--Hero-->
+    <section class="section section-top section-full">
+        <!--Background image-->
+        <div class="bg-image" style="background-image: url(resources/pictures/scarves-4128126_1920.jpg);"></div>
+        <!--BG Overlay-->
+        <div class="bg-overlay"></div>
+        <!--Triangles-->
+        <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+        <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+        <!--Content-->
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8 col-lg-7">
+                    <!--Pre-heading-->
+                    <p class="font-weight-medium text-center text-xs text-uppercase text-white text-muted animate" data-toggle="animation" data-animation="fadeUp" data-animation-order="0" data-animation-trigger="load">
+                        by Skhona Mathebula
+                    </p>
+                    <!--Heading-->
+                    <h1 class="text-white text-center mb-4 animate" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
+                        Landing pages for any occasion
+                    </h1>
+                    <!--Subheading-->
+                    <p class="lead text-white text-muted text-center mb-5 animate" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
+                        Incline is set of landing and support pages aimed at helping companies promote new products and business launches.
+                    </p>
+                    <!--Button-->
+                    <p class="text-center mb-0 animate" data-toggle="animation" data-animation="fadeUp" data-animation-order="3" data-animation-trigger="load">
+                        <a href="#" target="_blank" class="btn btn-outline-primary text-white">
+                            contact
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Bootstrap JS and Popper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
