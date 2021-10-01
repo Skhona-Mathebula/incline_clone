@@ -50,6 +50,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
 .section {
     position: relative;
     padding-top: 5rem;
@@ -70,7 +74,16 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 0.05em;
+    fill: white;
+}
+
+#brand-text-footer{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
     fill: black;
+    text-decoration: none;
 }
 
 .dropdown-text{
@@ -159,6 +172,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 .section-full.section-top > .container > .row {
     min-height: calc(100vh - 7.5rem * 2 - 5.8125rem);
+}
+
+.align-self-center {
+    align-self: center !important;
 }
 
 .col,
