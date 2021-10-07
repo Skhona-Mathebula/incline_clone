@@ -1889,3 +1889,13 @@ a.text-dark:hover {
     color:inherit!important
 }
 
+small {
+    font-size:80%
+}
+
+.small,
+small {
+    font-size:86.666%;
+    font-weight:400
+}
+
