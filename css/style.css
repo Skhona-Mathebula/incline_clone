@@ -1872,7 +1872,7 @@ a.text-dark:hover {
     color:rgba(255,255,255,.5)!important
 }
 .text-hide {
-    font:0/0 a;
+    /*font:0/0 a;*/
     color:transparent;
     text-shadow:none;
     background-color:transparent;
