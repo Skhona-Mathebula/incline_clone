@@ -1429,6 +1429,17 @@ a {
     }
 }
 
+/*Heading rules*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
 .h1,
 .h2,
 .h3,
@@ -1442,6 +1453,10 @@ h4,
 h5,
 h6 {
     letter-spacing:-.05em
+}
+.h4, h4 {
+    font-size: 1.125rem;
+    font-weight: 550;
 }
 .display-1,
 .display-2,
@@ -1955,7 +1970,8 @@ small {
     padding:2.5rem 2rem
 }
 .card-title {
-    margin-bottom:1rem
+    margin-bottom:1rem;
+    color:#000;
 }
 .card-subtitle {
     margin-top:-.5rem;
@@ -1968,7 +1984,7 @@ small {
     text-decoration:none
 }
 .card-link+.card-link {
-    margin-left:2.5rem 2rem
+    margin-left:2.5rem /*2rem*/;
 }
 .card-header {
     padding:1rem 2.5rem 2rem;
@@ -1985,14 +2001,14 @@ small {
     border-top:1px solid rgba(0,0,0,.1)
 }
 .card-header-tabs {
-    margin-right:-2.5rem 2rem/2;
+    margin-right:-2.5rem /*2rem/2*/;
     margin-bottom:-1rem;
-    margin-left:-2.5rem 2rem/2;
+    margin-left:-2.5rem /*2rem/2*/;
     border-bottom:0
 }
 .card-header-pills {
-    margin-right:-2.5rem 2rem/2;
-    margin-left:-2.5rem 2rem/2
+    margin-right:-2.5rem /*2rem/2*/;
+    margin-left:-2.5rem /*2rem/2*/;
 }
 .card-img-overlay {
     position:absolute;
@@ -2091,7 +2107,7 @@ a.card {
     -webkit-transition:all .2s ease-in-out;
     transition:all .2s ease-in-out;
     -webkit-transition-property:border-color;
-    transition-property:border-color
+    transition-property:border-color;
 }
 a.card:focus,
 a.card:hover {
@@ -2261,7 +2277,10 @@ a.card:hover .card-img-top:before {
         transform:translateX(0) rotate(0)
     }
 }
-
+.card-muted{
+    text-decoration:none;
+    color: gray;
+}
 /*Image rules*/
 img {
     vertical-align:middle;
@@ -2282,4 +2301,28 @@ svg {
     border:1px solid #dee2e6;
     max-width:100%;
     height:auto
+}
+
+/*Badge rules*/
+.badge {
+    display:inline-block;
+    padding:.25em .4em;
+    font-size:75%;
+    font-weight:600;
+    line-height:1;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:baseline;
+    -webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+.badge {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
 }
