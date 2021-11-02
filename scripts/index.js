@@ -2,7 +2,7 @@
 window.addEventListener('scroll', () =>{
     let  scrolled = window.scrollY;
     
-    if(scrolled >= 550.25) {
+    if(scrolled >= 50) {
         /*Navbar background colour*/
         document.getElementById('navvy').classList.remove('bg-dark');
         document.getElementById('navvy').classList.add('bg-light');
