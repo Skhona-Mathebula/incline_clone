@@ -19,7 +19,7 @@
     --warning: #ffc107;
     --danger: #dc3545;
     --light: #f8f9fa;
-    --dark: #343a40;
+    --dark: #313337;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -97,6 +97,14 @@ a {
 
 .nav-labels{
     text-transform: uppercase;
+}
+
+/*Navbar bg*/
+.bg-dark{
+    background-color: rgba(49, 51, 55, 0.35) !important;
+}
+.bg-light{
+    background-color: rgba(248, 249, 250, 0.95) !important;
 }
 
 .mr-auto, .mx-auto {
@@ -1296,6 +1304,9 @@ a {
 .text-white {
     color: #fff !important;
 }
+.text-black{
+    color: #000;
+}
 
 .text-muted {
     color: #fff !important;
@@ -2325,4 +2336,12 @@ svg {
 .badge-danger {
     color: #fff;
     background-color: #dc3545;
+}
+
+/*Navbar rules*/
+.navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
+    outline: 0;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #f5ba4b;
 }
